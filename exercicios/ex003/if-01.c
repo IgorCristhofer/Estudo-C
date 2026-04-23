@@ -10,17 +10,14 @@ int main(){
     SetConsoleOutputCP(65001); 
     SetConsoleCP(65001);
     
-    int idade = 0;
-    char nome[50] = "";
-
-    printf("Digite seu nome: ");
-    scanf("%s", nome);
-
-    printf("Digite sua idade: ");
-    scanf("%d", &idade);
-
-    printf("olá %s, sua idade é %d anos.\n", nome, idade);
+    int md=0;
+    printf("tente adivinhar o número: ");
+    scanf("%d",&md);
+    if(md==7){
+        printf("Você acertou, o número é %d! \n",md);
+    }else{
+        printf("É o errado...\n");
+    };
     system("pause");
     return 0;
-
 }
