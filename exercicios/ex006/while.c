@@ -2,19 +2,15 @@
 #include <stdlib.h>
 
 int main(){
-    int num = 0;
-    char resp[4];
+    int num = 3;
 
-    printf("Deseja jogar? (s->sim ou n->nao): ");
-    scanf("%s", resp);
-
-    while(num != 5){
-        printf("Digite um numero: ");
-        scanf("%d", &num);          
+    //o while roda em quanto a condição for falso.
+    while(num <= 99){
+        printf("O numero atual e: %d \n", num);
+        num *= 2;
     }
 
-    printf("Voce acertou!! O numero digitado foi 5 \n");
-
+    printf("Finalmente acabou! \n");
     system("pause");
 
     return 0;
