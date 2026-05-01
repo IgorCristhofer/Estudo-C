@@ -6,7 +6,8 @@ int main(){
 
     printf("Qual o valor de X? X+2=8 \n");
 
-    //ele imprime o valor e depois repete enquanto o teste for falso.
+    // o do funciona da seguinte maneira: ele executa o bloco de código pelo menos uma vez, e depois verifica a condição.
+    // Se a condição for verdadeira, ele continua executando o bloco de código. Se a condição for falsa, ele sai do loop.
     do{
         printf("Digite o valor correto: ");
         scanf("%i", &i);

@@ -4,7 +4,8 @@
 int main(){
     int i;
 
-    //roda enquanto a condição não for falsa
+    //o for é uma estrutura de repetição que tem a seguinte sintaxe:
+    //for (inicialização; condição; incremento/decremento){código a ser repetido}
     for (i = 0; i < 10; ++i){
 
         printf("%i \n", i);
