@@ -24,8 +24,6 @@ int main() {
     printf("O tamanho do array e: %d\n", tam);// Imprime o tamanho do array.
     
     printf("\n---------------------------------\n");
-    
-    system("pause");// pausa o sistema para o usuário ver os resultados antes de fechar a janela do terminal.
 
     return 0;
 }
